@@ -19,19 +19,27 @@ class App extends React.Component {
       
       <Router>
         <div className="all-contents">
+          
+         
           <nav>
             <div className = "sidebar">
               <Menu />
             </div>
           </nav>
-          <main>                                                                                               
-            <Head/>
-          
-            <div className = "page">
-            <Layout/>
-            </div>  
+          <main>   
+            <div className = 'right-body'>
+              <div className = "top-profile">
+                <Head/>
+              </div>
+            
+              <div className = "page">
+                <Layout/>
+              </div>  
+            </div>                                                                                            
+            
             
           </main>
+        
           
         </div>
       </Router>

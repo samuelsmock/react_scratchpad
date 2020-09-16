@@ -1,4 +1,5 @@
 .all-contents{
+  
   background-image: url('./cypress_background.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,24 +11,51 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.background{
+  
+
+}
 
 nav {
-  position: flex;
+  position: sticky;
 }
 
 main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  
-  
-  
+  margin-left: 250px;
 }
+  
+.right-body{
+
+}
+
+.top-profile{
+  position: sticky;
+  top: 0px;
+  z-index:2;
+  background: inherit;
+}
+
+.page{
+  background-color: white;
+  background-size: cover;
+  opacity: 0.9;
+  padding: 0px;
+  height: 100%;
+  margin-top:
+  
+ 
+}
+
 
 .sidebar{
   height: 100%;
-
-  top: 0;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  width: 250px;
 }
 
 .menuBar{
@@ -98,14 +126,9 @@ input:focus {
 .title {
   font-size: 1.5rem;
 } 
-.page{
-  background-color: white;
-  background-size: cover;
-  opacity: 0.9;
-  padding: 0px;
-  height: 100%;
+
+
  
-}
 
 .app-content {
   margin: 10px;
